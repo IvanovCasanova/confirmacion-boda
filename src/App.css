@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cormorant Garamond', sans-serif;
+  background-color: #e9e3d6; /* fondo */
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  text-align: center;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #808000; /* verde oliva */
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #808000;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #808000;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display', serif;
+}
+
+.mensaje1 {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display', serif;
+}
+
+.mensaje2 {
+  margin-left: 4.4rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  text-align: left;
+}
+
+.mensaje3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  text-align: left;
+}
+
+.mensaje-limite {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.fecha {
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-bottom: 1.5px solid #808000;
+  padding-bottom: 1px;
+  margin-bottom: 1rem;
+  margin-left: 1.2rem;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.1rem;
+  background-color: #808000;
+  color: #f5f3eb;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  max-width: 360px;
+  font-weight: 600;
+}
+
+.titulo-imagen h1 {
+  position: relative;
+  z-index: 2;
+  margin-bottom: -30px;
+  color: #808000;
+  display: inline-block;
+  padding: 0 12px;
+  border-radius: 8px;
+}
+
+.imagen-nombres {
+  width: 115%;     
+  max-width: none;
+  height: auto;
+  display: block;
+}
+
+.txt-con-icono {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  width: auto;           
+  max-width: 280px;      
+  margin: 0 auto;         
+}
+
+.icono {
+  width: 2.3rem;
+  padding-bottom: 1rem;
+  filter: invert(39%) sepia(89%) saturate(364%) hue-rotate(27deg) brightness(95%) contrast(89%);
+}
+
+.icono-anillos {
+  width: 3rem;
+  filter: invert(39%) sepia(89%) saturate(364%) hue-rotate(27deg) brightness(95%) contrast(89%);
+}
+
+.icono-floral {
+  width: 80%;
+  height: 50%;
+  transform: translateY(2rem);
+  filter: invert(39%) sepia(89%) saturate(364%) hue-rotate(27deg) brightness(95%) contrast(89%);
+}
+
+.icono-floral-2 {
+  width: 80%;
+  height: 50%;
+  transform: translateY(-2rem) scaleY(-1);
+  filter: invert(39%) sepia(89%) saturate(364%) hue-rotate(27deg) brightness(95%) contrast(89%);
+}
+
+.icono-sobre {
+  width: 3.2rem;
+  filter: invert(39%) sepia(89%) saturate(364%) hue-rotate(27deg) brightness(95%) contrast(89%);
+}
+
+.mensaje-info{
+  margin-left: 4.4rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 5px;
+  font-family: 'Playfair Display', serif;
+}
+
+.cuenta-regresiva{
+  font-size: 1.3rem;
+  font-family: serif;
+
+}
+
+.cuenta-regresiva2{
+  font-size: 1.8rem;
+  font-family: serif;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.aparecer {
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.bloque1 .aparecer {
+  animation-delay: 0s; 
+}
+
+.bloque2 .aparecer {
+  animation-delay: 1.2s;
+}
+
